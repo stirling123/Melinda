@@ -1,0 +1,116 @@
+
+/* this is a comment */
+
+body{
+        background-color: blanchedalmond
+}
+
+header{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lightblue;
+        padding-top: 1%;
+        padding-right: 0%;
+        padding-bottom: 3%;
+        padding-left:3%;
+        border-style: solid;
+        border-width: 3px;
+        margin-top: 25px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+}
+
+h1{
+       margin-bottom: 0px;
+}
+h2{
+        margin-top: 0px;
+        font-size: 1em;
+}
+
+p {
+        color: rgb(76, 0, 255);
+        margin: 25px;
+        text-align: justify;
+        margin-top: 25px;
+        margin-right: 40px;
+        margin-bottom: 0px;
+        margin-left: 40px;
+
+}
+
+#concerts {
+        border-collapse: collapse;
+        width: 80%;
+        margin-left: 40px;
+}
+
+#concerts td, #concerts td {
+        border: 1px solid black;
+        padding: 8px;
+}
+
+#concerts tr:nth-child(even){
+        background-color: white;
+}
+#conserts tr, th {
+        background-color: green;
+        border: 1px solid black;
+}
+
+#emailContact{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        margin: 2% 30%;
+}
+
+#quote{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        color: black;
+        padding-top: 1%;
+        padding-right: 3%;
+        padding-bottom: 1%;
+        padding-left:3%;
+        border-style: solid;
+        border-width: 3px;
+        margin-top: 25px;
+        margin-right: 80px;
+        margin-bottom: 10px;
+        margin-left: 80px;
+}
+
+#footer1 {
+        background-color: #F4F4F4;
+        height: 150px;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        margin-right: 10px;
+        margin-left: 10px; 
+      }
+      #footer1 section{
+        height: 60%;
+        color: #373737;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #footer1 footer {
+        background-color: #C0B283;
+        color: #DCD0C0;
+        height: 40%;
+        text-align: center;
+        padding: 15px;
+      }
+      #footer1 footer a {
+        color: #373737;
+        padding: 5px 20px;
+      }
+      #footer1 footer a:hover {
+        color: #F4F4F4;
+      }
+
+      #designedBy{
+              color: grey;
+              text-align: center;
+      }  
