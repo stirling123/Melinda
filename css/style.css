@@ -3,7 +3,7 @@
 
 body{
         margin: 60px;
-        background: beige;
+        background: rgb(196, 200, 231);
       
 
 }
@@ -31,6 +31,27 @@ h2{
         margin-top: 0px;
         font-size: 1em;
 }
+
+.wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+}
+.wrapper > div{
+        background:#eee;
+        padding:1.5em;
+        text-align: justify;
+      }
+
+.wrapper > .title{
+        background: black;
+        color: white;
+        text-align: center;
+}
+
+
+
 
 p {
         clear: both;
